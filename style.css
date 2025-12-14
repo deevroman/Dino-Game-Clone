@@ -14,7 +14,7 @@
   }
   
   .world {
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
   }
   
@@ -23,31 +23,32 @@
     /*font-size: 2vmin;*/
     color: #535353;
     right: 1vmin;
-    /* top: 1vmin; */
+    top: -1vmin;
   }
   
   .highscore {
     position: absolute;
     /*font-size: 2vmin;*/
     color: #535353;
-    right: 10vmin;
-    /* top: 1vmin; */
+    right: 25vmin;
+    top: -1vmin;
   }
   .separator {
     position: absolute;
-    /*font-size: 2vmin;*/
+    font-size: 2vmin;*/
     color: #535353;
-    right: 7vmin;
-    /* top: 1vmin; */
+    right: 16vmin;
+    top: -1vmin;
   }
   
   .start-screen {
-    position: absolute;
+    position: relative;
     font-size: 3vmin;
     color: #535353;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*left: 50%;
+    transform: translate(-50%, -50%);*/
+    text-align: center;
   }
   
   .hide {
